@@ -1,0 +1,26 @@
+#!/bin/bash
+
+# Create a directory called demo
+
+mkdir -p demo
+
+cd demo
+
+# Create a script
+
+touch file1.txt file2.txt
+
+# print file
+
+echo "file1.txt and file2.txt have been created:"
+
+# check permission
+ls -l
+
+# attribut permission
+echo "setting 640 to file1.txt:"
+echo "setting 755 to file2.txt:"
+chmod 640 file1.txt
+chmod 755 file2.txt
+echo "updated permissions:"
+ls -lt
