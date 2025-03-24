@@ -2,9 +2,9 @@
 
 # Create a directory called demo
 
-mkdir -p demo
+mkdir -p demo1
 
-cd demo
+cd demo1
 
 # Create a script
 
